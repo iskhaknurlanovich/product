@@ -29,6 +29,9 @@
   }
 }
 @media (max-width: 960px) {
+  body {
+    max-width: 1100px;
+  }
   nav {
     display: none;
   }
@@ -177,8 +180,73 @@
   .p-0 {
     width: 250px;
   }
+  @media (max-width: 715px) {
+    .main-star {
+      flex-wrap: wrap;
+    }
+  }
+}
+@media (max-width: 600px) {
+  body {
+    max-width: 900px;
+  }
+  .main-star {
+    flex-direction: column;
+    align-items: center;
+  }
+  .star-top {
+    width: 400px;
+    justify-content: center;
+    padding-left: 90px;
+  }
+  .section-text {
+    width: 100%;
+  }
+  .Block img {
+    max-width: 350px;
+  }
+}
+@media (max-width: 563px) {
+  .container {
+    max-width: 350px;
+  }
+  .Block {
+    flex-direction: column;
+    height: 100%;
+    padding: 50px 50px 0;
+    text-align: center;
+    .Block-text {
+      align-items: center;
+    }
+    img {
+      max-width: 265px;
+    }
+  }
+  .star-top {
+    width: 290px;
+    justify-content: center;
+    padding-left: 30px;
+    h1 {
+      font-size: 33px;
+    }
+  }
+}
+@media (max-width: 425px) {
+  body {
+    max-width: 800px;
+  }
+  .main {
+    flex-direction: column;
+    height: 550px;
+  }
+  .main-text {
+    height: 385px;
+  }
 }
 @media (max-width: 350px) {
+  body {
+    max-width: 500px;
+  }
   .container {
     max-width: 270px;
   }
@@ -274,61 +342,5 @@
   }
   .main-text {
     height: 390px;
-  }
-}
-@media (max-width: 425px) {
-  .main {
-    flex-direction: column;
-    height: 550px;
-  }
-  .main-text {
-    height: 385px;
-  }
-}
-@media (max-width: 600px) {
-  .main-star {
-    flex-direction: column;
-    align-items: center;
-  }
-  .star-top {
-    width: 400px;
-    justify-content: center;
-    padding-left: 90px;
-  }
-  .section-text {
-    width: 100%;
-  }
-  .Block img {
-    max-width: 350px;
-  }
-}
-@media (max-width: 563px) {
-  .container {
-    max-width: 350px;
-  }
-  .Block {
-    flex-direction: column;
-    height: 100%;
-    padding: 50px 50px 0;
-    text-align: center;
-    .Block-text {
-      align-items: center;
-    }
-    img {
-      max-width: 265px;
-    }
-  }
-  .star-top {
-    width: 290px;
-    justify-content: center;
-    padding-left: 30px;
-    h1 {
-      font-size: 33px;
-    }
-  }
-}
-@media (max-width: 715px) {
-  .main-star {
-    flex-wrap: wrap;
   }
 }
