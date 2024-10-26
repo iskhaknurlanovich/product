@@ -283,7 +283,9 @@
     border-bottom-left-radius: 192px;
     border-bottom-right-radius: 192px;
   }
-
+  .Block {
+    height: 450px;
+  }
   .container {
     max-width: 270px;
   }
@@ -411,6 +413,26 @@
     padding-left: 0px;
     h1 {
       font-size: 27px;
+    }
+  }
+}
+@media (max-width: 376px) {
+  #main {
+    height: 95vh;
+  }
+  .main-text {
+    h1 {
+      text-align: center;
+      font-size: 36px;
+    }
+    p {
+      text-align: center;
+    }
+    .btn button {
+      width: 85%;
+    }
+    span p {
+      font-size: 13px;
     }
   }
 }
